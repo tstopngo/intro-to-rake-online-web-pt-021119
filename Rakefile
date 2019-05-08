@@ -12,7 +12,7 @@ end
 namespace :db do
   desc 'require files to migrate'
     task:environment do 
-      require_relative './config/enviornment'
+      require_relative './config/environment'
     end
   desc 'migrate changes to your database'
     task :migrate => :environment do
